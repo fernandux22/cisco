@@ -23,29 +23,29 @@
 10. A
 
 # Ejercicio 3
-bits red: 24
-bits host: 8
+bits red: 24 \
+bits host: 8 
 
 # Ejercicio 4
-bits red: 20
-bits host: 12
+bits red: 20 \
+bits host: 12 \
 mascara: 255.255.240.0
 
 # Ejercicio 5
-hosts: 4094
-red: 172.16.32.0
+hosts: 4094 \
+red: 172.16.32.0 \
 broadcast: 172.16.47.255
 
 # Ejercicio 6
-subred: 192.168.100.64
-broadcast: 192.168.100.127
-rango ips utilizable: 192.168.100.65 - 192.168.100.126
+subred: 192.168.100.64 \
+broadcast: 192.168.100.127 \
+rango ips utilizable: 192.168.100.65 - 192.168.100.126 \
 hosts: 62
 
 # Ejercicio 7
-bits red: 30
-bits host: 2
-hosts: 2
-subred: 203.0.113.188
-broadcast: 203.0.113.191
+bits red: 30 \
+bits host: 2 \
+hosts: 2 \
+subred: 203.0.113.188 \
+broadcast: 203.0.113.191 \
 uso de este tipo de mascara: Enlaces punto a punto (WAN) entre routers
